@@ -6,6 +6,13 @@ public class Planet : MonoBehaviour
 {
     [SerializeField] SpriteRenderer spriteRenderer;
 
+    private void Start()
+    {
+        transform.DORotate(new Vector3(0, 0, 360), 30f, RotateMode.FastBeyond360)
+            .SetEase(Ease.Linear)
+            .SetLoops(-1);
+    }
+
     private void OnMouseDown()
     {
         transform.DOScale(Vector3.one * .95f, .1f).SetEase(Ease.OutSine);
