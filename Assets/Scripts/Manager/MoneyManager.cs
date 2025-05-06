@@ -20,9 +20,15 @@ public class MoneyManager : CurrencyManager
         }
     }
 
-    protected override void FixedUpdate()
+    public override void UpdateCurrency()
     {
         AddCurrency(currentModifier);
+    }
+
+    public void AddSingleMoney()
+    {
+        currentCurrency++;
+        onCurrencyChanged?.Invoke(currentCurrency);
     }
 
     public override void AddCurrency(float addedValue)

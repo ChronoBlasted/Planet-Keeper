@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a4d16020061f5e42a7eee98e50eb4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pollutionImpactFactor: 10
+  pollutionImpactFactor: 5
 --- !u!1 &139560984
 GameObject:
   m_ObjectHideFlags: 0
