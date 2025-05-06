@@ -1,10 +1,12 @@
 using TMPro;
-using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 
 public class EarnLayout : MonoBehaviour
 {
     [SerializeField] TMP_Text totalMoney, earnMoneyPerSec;
+
+    private float lastTotalMoney = float.MinValue;
+    private float lastEarnMoneyPerSec = float.MinValue;
 
     public void Init()
     {
@@ -17,11 +19,17 @@ public class EarnLayout : MonoBehaviour
 
     public void SetTotalMoney(float money)
     {
-        totalMoney.text = money.ToString("#,0") + "€";
+        if (Mathf.Approximately(money, lastTotalMoney)) return;
+
+        lastTotalMoney = money;
+        totalMoney.text = money.ToString("#,0") + "â‚¬";
     }
 
     public void SetEarnMoneyPerSec(float money)
     {
-        earnMoneyPerSec.text = money.ToString("#,0") + "€/sec";
+        if (Mathf.Approximately(money, lastEarnMoneyPerSec)) return;
+
+        lastEarnMoneyPerSec = money;
+        earnMoneyPerSec.text = money.ToString("#,0") + "â‚¬/sec";
     }
 }

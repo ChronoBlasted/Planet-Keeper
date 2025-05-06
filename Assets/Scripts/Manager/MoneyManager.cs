@@ -46,20 +46,23 @@ public class MoneyManager : CurrencyManager
 
     public bool CanSpendMoney(float amount)
     {
-        if (currentCurrency >= amount)
+        return currentCurrency >= amount;
+    }
+
+    public bool TrySpendMoney(float amount)
+    {
+        if (CanSpendMoney(amount))
         {
             SpendMoney(amount);
-            onCurrencyChanged?.Invoke(currentCurrency);
             return true;
         }
-        else
-        {
-            return false;
-        }
+        return false;
     }
 
     private void SpendMoney(float amount)
     {
-        currentCurrency += amount;
+        currentCurrency -= amount;
+        onCurrencyChanged?.Invoke(currentCurrency);
     }
+
 }
