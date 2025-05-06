@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
   m_Name: StationEpuration
   m_EditorClassIdentifier: 
-  name: Champ
+  name: "Station d'\xE9puration"
   description: "Une belle \xE9tendue toute verte"
-  sprite: {fileID: -7194511679411584322, guid: 6f46768a1aeabd04e9129b5b5f89852b, type: 3}
-  price: 50
-  pollutionAdded: 25
+  sprite: {fileID: 3641823088116639714, guid: 6b9036f3ea6e43b448b9e4037fcce4c9, type: 3}
+  price: 150
+  pollutionAdded: 75
   animator: {fileID: 0}
+  isInside: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Barri\xE8re de corail"
   description: C'est joli ET utile !
-  sprite: {fileID: -1690659761921557815, guid: a4985a3e2d019864780431b624a724b3, type: 3}
+  sprite: {fileID: 1074562335852043530, guid: 4be822227e58db5499f77cd0baf86c1a, type: 3}
   price: 500
   pollutionAdded: 250
   animator: {fileID: 0}

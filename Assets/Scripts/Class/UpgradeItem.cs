@@ -27,7 +27,7 @@ public class UpgradeItem : MonoBehaviour
         if (data.animator != null)
         {
             animator = data.animator;
-            animator.SetTrigger("Start");
+            animator.SetTrigger(name);
         }
     }
 

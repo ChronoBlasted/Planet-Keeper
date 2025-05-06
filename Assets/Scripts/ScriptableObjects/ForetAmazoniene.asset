@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
   m_Name: ForetAmazoniene
   m_EditorClassIdentifier: 
-  name: Brin d'herbe
-  description: Le brin d'herbe originel
-  sprite: {fileID: -1347532211411968617, guid: 5ec37bbc142b9a24ca086d70e0ba3a74, type: 3}
-  price: 1
-  pollutionAdded: 0.5
-  rotPos: {fileID: 0}
+  name: "For\xEAt amazoni\xE8ne"
+  description: "Un nouveau poumon pour la plan\xE8te"
+  sprite: {fileID: -982824887936402799, guid: 472c46d4b55db3b4193b9a5d00172a8a, type: 3}
+  price: 1000
+  pollutionAdded: 500
   animator: {fileID: 0}
+  isInside: 0

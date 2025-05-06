@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3827999149815570704
+--- !u!1001 &6802659911184461435
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 248872094811135662, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_Name
-      value: Bush Variant
+      value: StationEpuration
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.049999997
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.049999997
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.049999997
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30,11 +30,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.124
+      value: 0.015
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalRotation.w
@@ -68,18 +68,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4921448145690341697, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 5dfc958348836564e8ab336e4e8c276d, type: 2}
     - target: {fileID: 4944443758461757757, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5589740843778878394, guid: 8dede0ce1caf69147957f35992f24a8e, type: 3}
+      objectReference: {fileID: 3641823088116639714, guid: 6b9036f3ea6e43b448b9e4037fcce4c9, type: 3}
     - target: {fileID: 7452543735019696039, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: data
       value: 
-      objectReference: {fileID: 11400000, guid: 255c8e30174c9be4792e870222174f82, type: 2}
+      objectReference: {fileID: 11400000, guid: e257dcdee0afbb249b2de4d7a157322a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
