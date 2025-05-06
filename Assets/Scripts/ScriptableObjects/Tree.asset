@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Baobab
   description: Il s'appel Bob
+  prefab: {fileID: 6273485314834147647, guid: f392fe0671faad04883dab4521525770, type: 3}
   sprite: {fileID: -6934401341678212256, guid: 87e7ff20bc70da844b998e03695fd541, type: 3}
   price: 20
   pollutionAdded: 10

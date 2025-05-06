@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "For\xEAt"
   description: Un tas de buissons
+  prefab: {fileID: 8037715947870462165, guid: 180cd7a493413744c9cc548f84fe5aa6, type: 3}
   sprite: {fileID: 5354429476588687777, guid: d9dc73aa4bf631b438db616ea10e1322, type: 3}
   price: 75
   pollutionAdded: 50

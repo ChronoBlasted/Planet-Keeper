@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Biodiversit\xE9"
   description: "Il y a bio dedans, c'est forc\xE9ment bien"
+  prefab: {fileID: 5441738116129114470, guid: c9cbbe8850569f341bf12d3da5836b62, type: 3}
   sprite: {fileID: -6953301966411533592, guid: a7f170dcd75c1f948a7ed1a7245acab9, type: 3}
   price: 300
   pollutionAdded: 150

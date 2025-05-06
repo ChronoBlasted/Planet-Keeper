@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Buisson
   description: Un tas de brins d'herbe
+  prefab: {fileID: 3921477678422081470, guid: 44792076b54f80640866e21568c12d7c, type: 3}
   sprite: {fileID: -5589740843778878394, guid: 8dede0ce1caf69147957f35992f24a8e, type: 3}
   price: 10
   pollutionAdded: 5

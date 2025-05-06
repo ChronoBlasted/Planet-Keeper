@@ -6,10 +6,11 @@ public class UpgradesObjectsData : ScriptableObject
 {
     public string name;
     public string description;
+    public GameObject prefab;
     public Sprite sprite;
     public float price;
     public float pollutionAdded;
     public Animator animator;
-    public bool isInside;
+    public GenerationtransformType generationType;
     public bool isEco;
 }

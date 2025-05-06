@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Centre de tri
   description: Le plastique dans la poubelle jaune !
+  prefab: {fileID: 3301486857636617470, guid: 4515e29f6127c2248af5eb65e6ff4e60, type: 3}
   sprite: {fileID: 7361631322199862384, guid: 798da7fa21e27084f85b37ce1f8f2e37, type: 3}
   price: 200
   pollutionAdded: 100

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Paquerette
   description: Une folie petite fleur
+  prefab: {fileID: 5441738116129114470, guid: c9cbbe8850569f341bf12d3da5836b62, type: 3}
   sprite: {fileID: -1690659761921557815, guid: a4985a3e2d019864780431b624a724b3, type: 3}
   price: 5
   pollutionAdded: 2.5

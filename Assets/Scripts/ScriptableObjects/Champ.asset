@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Champ
   description: "Une belle \xE9tendue toute verte"
+  prefab: {fileID: 415908265253081109, guid: 0d8c0620253d214498637e618a48315b, type: 3}
   sprite: {fileID: -7194511679411584322, guid: 6f46768a1aeabd04e9129b5b5f89852b, type: 3}
   price: 50
   pollutionAdded: 25

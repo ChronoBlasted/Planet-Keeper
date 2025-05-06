@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Composte
   description: "Un truc qui pu mais tr\xE8s \xE9colo !"
+  prefab: {fileID: 7471033625288728358, guid: 87b7410153bfd7c41879c1c2f45bc9ec, type: 3}
   sprite: {fileID: 5520406542960741612, guid: ab6c259a4bbcedb4ebf5afd746ff0651, type: 3}
   price: 30
   pollutionAdded: 15

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Station d'\xE9puration"
   description: "Une belle \xE9tendue toute verte"
+  prefab: {fileID: 6706929668496896213, guid: 6a553a4dce6cf564cb690818bf0742c9, type: 3}
   sprite: {fileID: 3641823088116639714, guid: 6b9036f3ea6e43b448b9e4037fcce4c9, type: 3}
   price: 150
   pollutionAdded: 75

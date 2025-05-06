@@ -51,6 +51,8 @@ public class ScrollSlotLayout : MonoBehaviour
                 PollutionManager.Instance.AddModifier(currentData.pollutionAdded / 1000);
                 MoneyManager.Instance.AddModifier(currentData.price);
             }
+
+            SpawnerManager.Instance.Spawn(currentData.generationType, currentData.prefab);
         }
         else
         {
