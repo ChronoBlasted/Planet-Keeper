@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 248872094811135662, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_Name
-      value: CentreDeTri
+      value: CentreDeTri Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalScale.x
@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4921448145690341697, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f5f379adaae1fb047b0063fbbf5060e2, type: 2}
     - target: {fileID: 4944443758461757757, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_Sprite
       value: 
