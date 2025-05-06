@@ -14,6 +14,8 @@ public class PollutionLayout : MonoBehaviour
         malusBar.Init(0, 1);
 
         SetBar(0);
+
+        PollutionManager.Instance.onCurrencyChanged.AddListener(SetBar);
     }
 
     public void SetBar(float pollutionRate)

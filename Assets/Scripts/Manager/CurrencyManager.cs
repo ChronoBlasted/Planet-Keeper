@@ -3,12 +3,12 @@ using UnityEngine.Events;
 
 public class CurrencyManager : MonoBehaviour
 {
-    [SerializeField] protected UnityEvent<float> onCurrencyChanged;
+    public UnityEvent<float> onCurrencyChanged;
     [Space(10)]
     [SerializeField] protected float startingCurrency;
     [SerializeField] protected float currentCurrency;
     [Space(30)]
-    [SerializeField] protected UnityEvent<float> onModifierChanged;
+    public UnityEvent<float> onModifierChanged;
     [Space(10)]
     [SerializeField] protected float currentModifier;
 

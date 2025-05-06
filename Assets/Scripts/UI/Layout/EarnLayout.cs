@@ -10,6 +10,9 @@ public class EarnLayout : MonoBehaviour
     {
         SetTotalMoney(0);
         SetEarnMoneyPerSec(0);
+
+        MoneyManager.Instance.onCurrencyChanged.AddListener(SetTotalMoney);
+        MoneyManager.Instance.onModifierChanged.AddListener(SetEarnMoneyPerSec);
     }
 
     public void SetTotalMoney(float money)

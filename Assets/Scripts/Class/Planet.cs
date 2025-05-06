@@ -8,7 +8,9 @@ public class Planet : MonoBehaviour
 
     private void OnMouseDown()
     {
-        transform.DOScale(Vector3.one * .8f, .1f).SetEase(Ease.OutSine);
+        transform.DOScale(Vector3.one * .95f, .1f).SetEase(Ease.OutSine);
+
+        MoneyManager.Instance.AddCurrency(1);
     }
 
     private void OnMouseUp()
