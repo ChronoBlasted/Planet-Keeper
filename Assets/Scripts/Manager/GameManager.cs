@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoSingleton<GameManager>
 {
-    private void Awake()
+    private void Start()
     {
         UIManager.Instance.Init();
     }
