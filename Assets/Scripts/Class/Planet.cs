@@ -18,7 +18,7 @@ public class Planet : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        var currentColor = Color.Lerp(spriteRenderer.color, Color.black, .8f);
+        var currentColor = Color.Lerp(spriteRenderer.color, Color.black, .2f);
         spriteRenderer.DOColor(currentColor, .2f);
     }
 
