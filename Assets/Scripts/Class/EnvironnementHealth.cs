@@ -68,6 +68,8 @@ public class EnvironmentManager : MonoBehaviour
         foreach (var g in groups) g.CacheTaggedObjects();
 
         ApplyHealthImmediate(); // Apply initial value
+
+        PollutionManager.Instance.onCurrencyChanged.AddListener(UpdateEnvironmentHealth);
     }
 
     void Update()
@@ -87,13 +89,14 @@ public class EnvironmentManager : MonoBehaviour
     public void SetEnvironmentHealth(float value)
     {
         value = Mathf.Clamp(value, -1f, 1f);
-        if (!Mathf.Approximately(value, environmentHealth))
+        if (Mathf.Abs(value - environmentHealth) > 0.001f)
         {
             environmentHealth = value;
             ApplyHealthImmediate();
             OnHealthChanged?.Invoke(environmentHealth);
         }
     }
+
     #endregion
 
     #region === Core Logic ===
@@ -157,5 +160,14 @@ public class EnvironmentManager : MonoBehaviour
                 if (obj.activeSelf != targetState) obj.SetActive(targetState);
             }
         }
+    }
+
+    private void UpdateEnvironmentHealth(float currentPollution)
+    {
+        // currentPollution est entre 0 et 100
+        float normalizedRatio = (1f - (currentPollution / 100f)) * 2f - 1f; // Donne un résultat entre -1 et 1
+        normalizedRatio = Mathf.Clamp(normalizedRatio, -1f, 1f);
+
+        SetEnvironmentHealth(normalizedRatio);
     }
 }

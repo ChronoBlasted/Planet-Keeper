@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Mine de charbon
   description: On est dans Minecraft ?
-  prefab: {fileID: 5748447397626027278, guid: cb9f2b7e94b48394897cece8ca9f7a18, type: 3}
   sprite: {fileID: 8135663367076951168, guid: 13ba4c401f1fc244f939dfe3e3059fa7, type: 3}
-  price: 150
-  pollutionAdded: 150
+  isEco: 0
+  prefab: {fileID: 5748447397626027278, guid: cb9f2b7e94b48394897cece8ca9f7a18, type: 3}
+  basePrice: 1375
+  priceGrowth: 1.85
+  pollutionAdded: 0.8
+  moneyGenerated: 35
   animator: {fileID: 0}
   generationType: 0
-  isEco: 0

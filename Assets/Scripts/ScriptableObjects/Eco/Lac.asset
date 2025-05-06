@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: Foret
+  m_Name: Lac
   m_EditorClassIdentifier: 
-  name: "For\xEAt"
-  description: Un tas de buissons
-  prefab: {fileID: 8037715947870462165, guid: 180cd7a493413744c9cc548f84fe5aa6, type: 3}
-  sprite: {fileID: 5354429476588687777, guid: d9dc73aa4bf631b438db616ea10e1322, type: 3}
-  price: 75
-  pollutionAdded: 50
-  animator: {fileID: 0}
-  isInside: 0
+  name: Lac
+  description: Il peut y avoir des poissons
+  sprite: {fileID: 7664917438915307341, guid: 9890c749029379b4f899f7e5b5db6475, type: 3}
   isEco: 1
+  prefab: {fileID: 4455438846700826226, guid: 0113153b6f66d7a44bfa35ecfc6483cf, type: 3}
+  basePrice: 300
+  priceGrowth: 1.7
+  pollutionAdded: 0.34
+  moneyGenerated: 0
+  animator: {fileID: 0}
+  generationType: 1

@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Maison
   description: Un tas de salles
-  prefab: {fileID: 7187602748695048799, guid: 43dc2c2962877c147bb4ed7c32ee8f8c, type: 3}
   sprite: {fileID: -7411974349392773033, guid: a6152ab1f95a8f64d8cc2f6dc305c741, type: 3}
-  price: 5
-  pollutionAdded: 5
+  isEco: 0
+  prefab: {fileID: 7187602748695048799, guid: 43dc2c2962877c147bb4ed7c32ee8f8c, type: 3}
+  basePrice: 40
+  priceGrowth: 1.6
+  pollutionAdded: 0.04
+  moneyGenerated: 1.5
   animator: {fileID: 0}
   generationType: 0
-  isEco: 0

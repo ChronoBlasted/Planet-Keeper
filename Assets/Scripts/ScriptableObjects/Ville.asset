@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Ville
   description: Un tas d'immeubles
-  prefab: {fileID: 985937787504926052, guid: 34fc9ba14d80cd94bab14491d0ffcef2, type: 3}
   sprite: {fileID: -2968090980902413295, guid: 3168bdb27b88e264d9e3893b21cc41aa, type: 3}
-  price: 20
-  pollutionAdded: 20
+  isEco: 0
+  prefab: {fileID: 985937787504926052, guid: 34fc9ba14d80cd94bab14491d0ffcef2, type: 3}
+  basePrice: 500
+  priceGrowth: 1.75
+  pollutionAdded: 0.4
+  moneyGenerated: 18
   animator: {fileID: 0}
   generationType: 0
-  isEco: 0

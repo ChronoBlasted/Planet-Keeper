@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: Champ
+  m_Name: Foret
   m_EditorClassIdentifier: 
-  name: Champ
-  description: "Une belle \xE9tendue toute verte"
-  prefab: {fileID: 415908265253081109, guid: 0d8c0620253d214498637e618a48315b, type: 3}
-  sprite: {fileID: -7194511679411584322, guid: 6f46768a1aeabd04e9129b5b5f89852b, type: 3}
-  price: 50
-  pollutionAdded: 25
-  animator: {fileID: 0}
-  isInside: 0
+  name: "For\xEAt"
+  description: Un tas de buissons
+  sprite: {fileID: 5354429476588687777, guid: d9dc73aa4bf631b438db616ea10e1322, type: 3}
   isEco: 1
+  prefab: {fileID: 8037715947870462165, guid: 180cd7a493413744c9cc548f84fe5aa6, type: 3}
+  basePrice: 200
+  priceGrowth: 1.7
+  pollutionAdded: 0.26
+  moneyGenerated: 0
+  animator: {fileID: 0}
+  generationType: 0

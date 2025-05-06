@@ -16,7 +16,7 @@ public class ScrollLayout : MonoBehaviour
     {
         var filteredData = allData
             .Where(data => data.isEco == isEcoScroll)
-            .OrderBy(data => data.price);
+            .OrderBy(data => data.basePrice);
 
         foreach (UpgradesObjectsData data in filteredData)
         {

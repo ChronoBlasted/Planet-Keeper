@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: Lac
+  m_Name: Biodiversite
   m_EditorClassIdentifier: 
-  name: Buisson
-  description: Un tas de brins d'herbe
-  prefab: {fileID: 4455438846700826226, guid: 0113153b6f66d7a44bfa35ecfc6483cf, type: 3}
-  sprite: {fileID: 7664917438915307341, guid: 9890c749029379b4f899f7e5b5db6475, type: 3}
-  price: 10
-  pollutionAdded: 5
+  name: "Biodiversit\xE9"
+  description: "Il y a bio dedans, c'est forc\xE9ment bien"
+  sprite: {fileID: -6953301966411533592, guid: a7f170dcd75c1f948a7ed1a7245acab9, type: 3}
+  isEco: 1
+  prefab: {fileID: 1836220862213926330, guid: 82f8b8425a82e5744a5addb31f53b7f8, type: 3}
+  basePrice: 875
+  priceGrowth: 1.8
+  pollutionAdded: 0.7
+  moneyGenerated: 0
   animator: {fileID: 0}
   generationType: 1
-  isEco: 1

@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DataCenter
   description: Sert aussi de chauffage l'hiver
-  prefab: {fileID: 7148628289400218025, guid: 1f2dc7f0bab18c84aaa33479a3b33458, type: 3}
   sprite: {fileID: -7090612497130224575, guid: 73312e7eb2008fd42b0f7303652976de, type: 3}
-  price: 200
-  pollutionAdded: 200
+  isEco: 0
+  prefab: {fileID: 7148628289400218025, guid: 1f2dc7f0bab18c84aaa33479a3b33458, type: 3}
+  basePrice: 2250
+  priceGrowth: 1.9
+  pollutionAdded: 1
+  moneyGenerated: 50
   animator: {fileID: 0}
   generationType: 0
-  isEco: 0

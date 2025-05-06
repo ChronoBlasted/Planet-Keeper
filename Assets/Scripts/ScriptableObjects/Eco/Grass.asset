@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: Paquerette
+  m_Name: Grass
   m_EditorClassIdentifier: 
-  name: Paquerette
-  description: Une folie petite fleur
-  prefab: {fileID: 5441738116129114470, guid: c9cbbe8850569f341bf12d3da5836b62, type: 3}
-  sprite: {fileID: -1690659761921557815, guid: a4985a3e2d019864780431b624a724b3, type: 3}
-  price: 5
-  pollutionAdded: 2.5
-  animator: {fileID: 0}
-  isInside: 0
+  name: Brin d'herbe
+  description: Le brin d'herbe originel
+  sprite: {fileID: -1347532211411968617, guid: 5ec37bbc142b9a24ca086d70e0ba3a74, type: 3}
   isEco: 1
+  prefab: {fileID: 415908265253081109, guid: 0d8c0620253d214498637e618a48315b, type: 3}
+  basePrice: 10
+  priceGrowth: 1.5
+  pollutionAdded: 0.1
+  moneyGenerated: 0
+  animator: {fileID: 0}
+  generationType: 0

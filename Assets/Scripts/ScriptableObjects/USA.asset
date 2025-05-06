@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: USA
   description: Un tas de villes
-  prefab: {fileID: 5443586917855079385, guid: 038cade105ccb16448005176d337c04d, type: 3}
   sprite: {fileID: -7992286938110287893, guid: b821d900aa9643a479e7a7ac5439f569, type: 3}
-  price: 1000
-  pollutionAdded: 1000
+  isEco: 0
+  prefab: {fileID: 5443586917855079385, guid: 038cade105ccb16448005176d337c04d, type: 3}
+  basePrice: 12500
+  priceGrowth: 2
+  pollutionAdded: 5
+  moneyGenerated: 500
   animator: {fileID: 0}
   generationType: 1
-  isEco: 0

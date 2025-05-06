@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: CentreDeTri
+  m_Name: Paquerette
   m_EditorClassIdentifier: 
-  name: Centre de tri
-  description: Le plastique dans la poubelle jaune !
-  prefab: {fileID: 3301486857636617470, guid: 4515e29f6127c2248af5eb65e6ff4e60, type: 3}
-  sprite: {fileID: 7361631322199862384, guid: 798da7fa21e27084f85b37ce1f8f2e37, type: 3}
-  price: 200
-  pollutionAdded: 100
-  animator: {fileID: 0}
-  isInside: 0
+  name: Paquerette
+  description: Une folie petite fleur
+  sprite: {fileID: -1690659761921557815, guid: a4985a3e2d019864780431b624a724b3, type: 3}
   isEco: 1
+  prefab: {fileID: 5441738116129114470, guid: c9cbbe8850569f341bf12d3da5836b62, type: 3}
+  basePrice: 25
+  priceGrowth: 1.6
+  pollutionAdded: 0.03
+  moneyGenerated: 0
+  animator: {fileID: 0}
+  generationType: 0

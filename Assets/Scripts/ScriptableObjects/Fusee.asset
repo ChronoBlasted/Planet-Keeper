@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Lancement de fus\xE9e"
   description: "Katty Perry semble int\xE9ress\xE9e"
-  prefab: {fileID: 1508269896509974852, guid: c158adedc08ba554ab9fcdca17a27ea8, type: 3}
   sprite: {fileID: 6873776167567785552, guid: 6b568fb160c7a5741a9fa1194e76031f, type: 3}
-  price: 300
-  pollutionAdded: 300
+  isEco: 0
+  prefab: {fileID: 1508269896509974852, guid: c158adedc08ba554ab9fcdca17a27ea8, type: 3}
+  basePrice: 3750
+  priceGrowth: 1.9
+  pollutionAdded: 1.4
+  moneyGenerated: 70
   animator: {fileID: 0}
   generationType: 1
-  isEco: 0

@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: Grass
+  m_Name: StationEpuration
   m_EditorClassIdentifier: 
-  name: Brin d'herbe
-  description: Le brin d'herbe originel
-  prefab: {fileID: 415908265253081109, guid: 0d8c0620253d214498637e618a48315b, type: 3}
-  sprite: {fileID: -1347532211411968617, guid: 5ec37bbc142b9a24ca086d70e0ba3a74, type: 3}
-  price: 1
-  pollutionAdded: 0.5
-  animator: {fileID: 0}
-  isInside: 0
+  name: "Station d'\xE9puration"
+  description: "Une belle \xE9tendue toute verte"
+  sprite: {fileID: 3641823088116639714, guid: 6b9036f3ea6e43b448b9e4037fcce4c9, type: 3}
   isEco: 1
+  prefab: {fileID: 6706929668496896213, guid: 6a553a4dce6cf564cb690818bf0742c9, type: 3}
+  basePrice: 500
+  priceGrowth: 1.75
+  pollutionAdded: 0.5
+  moneyGenerated: 0
+  animator: {fileID: 0}
+  generationType: 0

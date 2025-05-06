@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Immeuble
   description: Un tas de maison
-  prefab: {fileID: 6123277174948625839, guid: 5e1af8edcba6ac44aa9bb6cb75fd17a1, type: 3}
   sprite: {fileID: -2968090980902413295, guid: 3168bdb27b88e264d9e3893b21cc41aa, type: 3}
-  price: 10
-  pollutionAdded: 10
+  isEco: 0
+  prefab: {fileID: 6123277174948625839, guid: 5e1af8edcba6ac44aa9bb6cb75fd17a1, type: 3}
+  basePrice: 75
+  priceGrowth: 1.65
+  pollutionAdded: 0.08
+  moneyGenerated: 3.2
   animator: {fileID: 0}
   generationType: 0
-  isEco: 0

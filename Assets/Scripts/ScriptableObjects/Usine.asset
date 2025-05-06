@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Usine
   description: Pour fabriquer l'iphone 36
-  prefab: {fileID: 2866793462371252186, guid: 86c4c361ec970f74abd3ddbf9b8a0446, type: 3}
   sprite: {fileID: 8677582162583586583, guid: 2579ad84f06238347ba006b1e73cb89b, type: 3}
-  price: 100
-  pollutionAdded: 100
+  isEco: 0
+  prefab: {fileID: 2866793462371252186, guid: 86c4c361ec970f74abd3ddbf9b8a0446, type: 3}
+  basePrice: 875
+  priceGrowth: 1.8
+  pollutionAdded: 0.6
+  moneyGenerated: 25
   animator: {fileID: 0}
   generationType: 0
-  isEco: 0

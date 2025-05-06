@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: Composte
+  m_Name: Tree
   m_EditorClassIdentifier: 
-  name: Composte
-  description: "Un truc qui pu mais tr\xE8s \xE9colo !"
-  prefab: {fileID: 7471033625288728358, guid: 87b7410153bfd7c41879c1c2f45bc9ec, type: 3}
-  sprite: {fileID: 5520406542960741612, guid: ab6c259a4bbcedb4ebf5afd746ff0651, type: 3}
-  price: 30
-  pollutionAdded: 15
-  animator: {fileID: 0}
-  isInside: 0
+  name: Baobab
+  description: Il s'appel Bob
+  sprite: {fileID: -6934401341678212256, guid: 87e7ff20bc70da844b998e03695fd541, type: 3}
   isEco: 1
+  prefab: {fileID: 6273485314834147647, guid: f392fe0671faad04883dab4521525770, type: 3}
+  basePrice: 50
+  priceGrowth: 1.6
+  pollutionAdded: 0.08
+  moneyGenerated: 0
+  animator: {fileID: 0}
+  generationType: 0

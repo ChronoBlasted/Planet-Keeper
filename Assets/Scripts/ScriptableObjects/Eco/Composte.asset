@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
-  m_Name: ChatGPT
+  m_Name: Composte
   m_EditorClassIdentifier: 
-  name: Abonnement ChatGPT
-  description: "La pollution \xE0 port\xE9e de main !"
-  sprite: {fileID: 4513262415663695275, guid: cc531df47cccd214985f69356902648f, type: 3}
-  isEco: 0
-  prefab: {fileID: 8663569917705100018, guid: d3e1bc32cb85b7d4b826d5026e82ab1c, type: 3}
-  basePrice: 15
-  priceGrowth: 1.6
-  pollutionAdded: 0.1
-  moneyGenerated: 0.5
+  name: Composte
+  description: "Un truc qui pu mais tr\xE8s \xE9colo !"
+  sprite: {fileID: 5520406542960741612, guid: ab6c259a4bbcedb4ebf5afd746ff0651, type: 3}
+  isEco: 1
+  prefab: {fileID: 7471033625288728358, guid: 87b7410153bfd7c41879c1c2f45bc9ec, type: 3}
+  basePrice: 75
+  priceGrowth: 1.65
+  pollutionAdded: 0.12
+  moneyGenerated: 0
   animator: {fileID: 0}
   generationType: 0
