@@ -8,7 +8,7 @@ public class RatioManager : MonoBehaviour
     private MoneyManager moneyManager;
     private PollutionManager pollutionManager;
 
-    public float pollutionImpactFactor = 10;
+    public float pollutionImpactFactor = 5;
 
     private void Awake()
     {
@@ -34,7 +34,7 @@ public class RatioManager : MonoBehaviour
         float pollution = Mathf.Clamp(pollutionManager.GetCurrency(), 0f, 100f);
         float money = Mathf.Max(0f, moneyManager.GetCurrency());
 
-        float multiplier = money * (pollutionImpactFactor - (pollution / 10f));
+        float multiplier = (pollutionImpactFactor - (pollution / 10f));
 
         return multiplier;
     }
