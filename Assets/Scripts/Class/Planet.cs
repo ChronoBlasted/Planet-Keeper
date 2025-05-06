@@ -17,7 +17,7 @@ public class Planet : MonoBehaviour
     {
         transform.DOScale(Vector3.one * .95f, .1f).SetEase(Ease.OutSine);
 
-        MoneyManager.Instance.AddCurrency(1);
+        MoneyManager.Instance.AddSingleMoney();
     }
 
     private void OnMouseUp()

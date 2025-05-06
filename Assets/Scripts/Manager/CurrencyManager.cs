@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -18,7 +19,21 @@ public class CurrencyManager : MonoBehaviour
         currentModifier = 0;
     }
 
-    protected virtual void FixedUpdate()
+    protected virtual void Start()
+    {
+        StartCoroutine(UpdateCurrencyCoroutine());
+    }
+
+    private IEnumerator UpdateCurrencyCoroutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            UpdateCurrency();
+        }
+    }
+
+    public virtual void UpdateCurrency()
     {
         currentCurrency += currentModifier;
     }
