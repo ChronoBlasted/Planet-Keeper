@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Papillon_0: -6953301966411533592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
