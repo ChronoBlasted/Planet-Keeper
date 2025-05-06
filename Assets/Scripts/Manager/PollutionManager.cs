@@ -22,6 +22,10 @@ public class PollutionManager : CurrencyManager
             instance = this;
         }
     }
+    public override void UpdateCurrency()
+    {
+        AddCurrency(currentModifier);
+    }
 
     public override void AddCurrency(float addedValue)
     {
