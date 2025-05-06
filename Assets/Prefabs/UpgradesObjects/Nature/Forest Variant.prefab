@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.51
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.z
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.z
@@ -270,7 +270,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 248872094811135662, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_Name
-      value: Forest
+      value: Forest Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.x
@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4921448145690341697, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a1eef3fd6ea93fe4d9875870373b2246, type: 2}
     - target: {fileID: 4944443758461757757, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_Sprite
       value: 
