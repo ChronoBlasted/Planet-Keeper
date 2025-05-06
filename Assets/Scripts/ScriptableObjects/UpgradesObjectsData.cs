@@ -11,4 +11,5 @@ public class UpgradesObjectsData : ScriptableObject
     public float pollutionAdded;
     public Animator animator;
     public bool isInside;
+    public bool isEco;
 }

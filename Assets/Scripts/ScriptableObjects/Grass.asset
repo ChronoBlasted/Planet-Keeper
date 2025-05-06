@@ -17,5 +17,6 @@ MonoBehaviour:
   sprite: {fileID: -1347532211411968617, guid: 5ec37bbc142b9a24ca086d70e0ba3a74, type: 3}
   price: 1
   pollutionAdded: 0.5
-  rotPos: {fileID: 0}
   animator: {fileID: 0}
+  isInside: 0
+  isEco: 1

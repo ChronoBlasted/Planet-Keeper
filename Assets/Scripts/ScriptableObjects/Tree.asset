@@ -18,3 +18,5 @@ MonoBehaviour:
   price: 20
   pollutionAdded: 10
   animator: {fileID: 0}
+  isInside: 0
+  isEco: 1

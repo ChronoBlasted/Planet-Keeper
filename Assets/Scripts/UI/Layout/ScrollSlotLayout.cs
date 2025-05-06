@@ -11,37 +11,43 @@ public class ScrollSlotLayout : MonoBehaviour
     [SerializeField] Color red, green;
 
     int total = 0;
-    //Data currentData;
 
-    public void Init()
+    UpgradesObjectsData currentData;
+
+    public void Init(UpgradesObjectsData newData)
     {
-        title.text = "";
-        desc.text = "";
-        amount.text = "";
-        price.text = "€";
+        currentData = newData;
+
+        title.text = currentData.name;
+        desc.text = currentData.description;
+        amount.text = "+" + currentData.pollutionAdded;
+        price.text = currentData.price + "€";
         totalBuyed.text = total.ToString();
 
-        // ico.sprite;
+        ico.sprite = currentData.sprite;
 
-        UpdateUI();
+        UpdateUI(0);
+
+        MoneyManager.Instance.onCurrencyChanged.AddListener(UpdateUI);
     }
 
     public void HandleOnClick()
     {
-        //if (currentData.cost < CurrencyManager.coin)
-        //{
+        bool canBuy = MoneyManager.Instance.CanSpendMoney(currentData.price);
 
-        //}
-        //else
-        //{
-        //    totalBuyed.text = total.ToString();
-        //}
+        if (canBuy)
+        {
+            totalBuyed.text = total.ToString();
+        }
+        else
+        {
+        }
     }
 
-    public void UpdateUI()
+    public void UpdateUI(float moneyChanged)
     {
-        //bool canBuy = currentData.cost < CurrencyManager.coin
-        //lockLayout.SetActive(canBuy);
-        //price.color = canBuy ? green : red;
+        bool canBuy = MoneyManager.Instance.CanSpendMoney(currentData.price);
+        lockLayout.SetActive(!canBuy);
+        price.color = canBuy ? green : red;
     }
 }

@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
@@ -8,26 +9,32 @@ public class ScrollLayout : MonoBehaviour
 {
     [SerializeField] GameObject content;
     [SerializeField] ScrollSlotLayout scrollSlotLayout;
-    //[SerializeField] List<Data> allData;
+    [SerializeField] List<UpgradesObjectsData> allData;
+    [SerializeField] bool isEcoScroll;
+
     public void Init()
     {
-        //foreach (Data data in allData)
-        //{
-        //    var currentLayout = Instantiate(scrollSlotLayout, content.transform);
-        //    currentLayout.Init();
-        //}
+        var filteredData = allData
+            .Where(data => data.isEco == isEcoScroll)
+            .OrderBy(data => data.price);
+
+        foreach (UpgradesObjectsData data in filteredData)
+        {
+            var currentLayout = Instantiate(scrollSlotLayout, content.transform);
+            currentLayout.Init(data);
+        }
     }
 
-    //#if UNITY_EDITOR
-    //    [ContextMenu("Load All Data")]
-    //    public void LoadAllResourcesInEditor()
-    //    {
-    //        allData = AssetDatabase.FindAssets("t:ErrorData")
-    //            .Select(AssetDatabase.GUIDToAssetPath)
-    //            .Select(AssetDatabase.LoadAssetAtPath<ErrorData>)
-    //            .ToList();
+#if UNITY_EDITOR
+    [ContextMenu("Load All Data")]
+    public void LoadAllResourcesInEditor()
+    {
+        allData = AssetDatabase.FindAssets("t:UpgradesObjectsData")
+            .Select(AssetDatabase.GUIDToAssetPath)
+            .Select(AssetDatabase.LoadAssetAtPath<UpgradesObjectsData>)
+            .ToList();
 
-    //        EditorUtility.SetDirty(this);
-    //    }
-    //#endif
+        EditorUtility.SetDirty(this);
+    }
+#endif
 }

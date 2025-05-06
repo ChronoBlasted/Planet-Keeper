@@ -1537,10 +1537,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 32
-    m_Right: 32
-    m_Top: 32
-    m_Bottom: 32
+    m_Left: 16
+    m_Right: 16
+    m_Top: 16
+    m_Bottom: 16
   m_ChildAlignment: 1
   m_Spacing: 32
   m_ChildForceExpandWidth: 0
@@ -1564,6 +1564,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: {fileID: 879366087}
   scrollSlotLayout: {fileID: 884447165143809454, guid: da9fe89600159e747a62a05a2e404f6e, type: 3}
+  allData:
+  - {fileID: 11400000, guid: 89f70ee4944d62d47b1c177acdea5be3, type: 2}
+  - {fileID: 11400000, guid: 8b2f70e15fb4c9849ae82f3edcbda851, type: 2}
+  - {fileID: 11400000, guid: 255c8e30174c9be4792e870222174f82, type: 2}
+  - {fileID: 11400000, guid: 87b5561fc2af588499b687b30e8bda84, type: 2}
+  - {fileID: 11400000, guid: 4c83264c08c163444b80ca5958661d2d, type: 2}
+  - {fileID: 11400000, guid: 8be6e805b6bd51c43a494c458f3dc0f8, type: 2}
+  - {fileID: 11400000, guid: cb0bce2ea33ceb74f8f1ee226ce59ae5, type: 2}
+  - {fileID: 11400000, guid: 0d19a3dd82526fa43a8f327d22f99bc3, type: 2}
+  - {fileID: 11400000, guid: 91fcc8ed00757b74db1c0fd9f093b22a, type: 2}
+  - {fileID: 11400000, guid: 6b8a9025400584a429a2060efcf17cc6, type: 2}
+  - {fileID: 11400000, guid: 757b70c98a925d84fa93bcb49205e6c1, type: 2}
+  - {fileID: 11400000, guid: e257dcdee0afbb249b2de4d7a157322a, type: 2}
+  - {fileID: 11400000, guid: 246b5ab880fe8084f9cc427471a4ecc8, type: 2}
+  isEcoScroll: 0
 --- !u!1 &1104091361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,6 +2152,7 @@ GameObject:
   - component: {fileID: 1462141278}
   - component: {fileID: 1462141277}
   - component: {fileID: 1462141276}
+  - component: {fileID: 1462141280}
   m_Layer: 0
   m_Name: Scroll
   m_TagString: Untagged
@@ -2235,7 +2251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 2006810572}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -2252,6 +2268,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1462141280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462141274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
 --- !u!1 &1563448372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2305,10 +2334,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 32
-    m_Right: 32
-    m_Top: 32
-    m_Bottom: 32
+    m_Left: 16
+    m_Right: 16
+    m_Top: 16
+    m_Bottom: 16
   m_ChildAlignment: 1
   m_Spacing: 32
   m_ChildForceExpandWidth: 0
@@ -2332,6 +2361,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: {fileID: 2006810571}
   scrollSlotLayout: {fileID: 884447165143809454, guid: da9fe89600159e747a62a05a2e404f6e, type: 3}
+  allData:
+  - {fileID: 11400000, guid: 89f70ee4944d62d47b1c177acdea5be3, type: 2}
+  - {fileID: 11400000, guid: 8b2f70e15fb4c9849ae82f3edcbda851, type: 2}
+  - {fileID: 11400000, guid: 255c8e30174c9be4792e870222174f82, type: 2}
+  - {fileID: 11400000, guid: 87b5561fc2af588499b687b30e8bda84, type: 2}
+  - {fileID: 11400000, guid: 4c83264c08c163444b80ca5958661d2d, type: 2}
+  - {fileID: 11400000, guid: 8be6e805b6bd51c43a494c458f3dc0f8, type: 2}
+  - {fileID: 11400000, guid: cb0bce2ea33ceb74f8f1ee226ce59ae5, type: 2}
+  - {fileID: 11400000, guid: 0d19a3dd82526fa43a8f327d22f99bc3, type: 2}
+  - {fileID: 11400000, guid: 91fcc8ed00757b74db1c0fd9f093b22a, type: 2}
+  - {fileID: 11400000, guid: 6b8a9025400584a429a2060efcf17cc6, type: 2}
+  - {fileID: 11400000, guid: 757b70c98a925d84fa93bcb49205e6c1, type: 2}
+  - {fileID: 11400000, guid: e257dcdee0afbb249b2de4d7a157322a, type: 2}
+  - {fileID: 11400000, guid: 246b5ab880fe8084f9cc427471a4ecc8, type: 2}
+  isEcoScroll: 1
 --- !u!1 &1691528851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,6 +2929,7 @@ GameObject:
   - component: {fileID: 1971631936}
   - component: {fileID: 1971631935}
   - component: {fileID: 1971631937}
+  - component: {fileID: 1971631938}
   m_Layer: 0
   m_Name: Scroll
   m_TagString: Untagged
@@ -2925,7 +2970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 879366088}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -3000,6 +3045,19 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: 1
   m_LayoutPriority: 1
+--- !u!114 &1971631938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971631932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
 --- !u!1 &2006810571
 GameObject:
   m_ObjectHideFlags: 0
@@ -3124,8 +3182,8 @@ MonoBehaviour:
   onCurrencyChanged:
     m_PersistentCalls:
       m_Calls: []
-  startingCurrency: 1
-  currentCurrency: 1
+  startingCurrency: 0
+  currentCurrency: 0
   onModifierChanged:
     m_PersistentCalls:
       m_Calls: []

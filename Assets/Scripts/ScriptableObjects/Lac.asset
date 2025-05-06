@@ -19,3 +19,4 @@ MonoBehaviour:
   pollutionAdded: 5
   animator: {fileID: 0}
   isInside: 1
+  isEco: 1
