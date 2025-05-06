@@ -10,32 +10,33 @@ public class PollutionLayout : MonoBehaviour
 
     public void Init()
     {
-        ecoBar.Init(0, 1);
-        malusBar.Init(0, 1);
+        ecoBar.Init(0, 100);
+        malusBar.Init(0, 100);
 
         SetBar(0);
 
         PollutionManager.Instance.onCurrencyChanged.AddListener(SetBar);
     }
-
-    public void SetBar(float pollutionRate)
+    public void SetBar(float newValue)
     {
+        float pollutionRate = PollutionManager.Instance.GetRatio();
+
+        amount.text = $"{pollutionRate:+0;-0}%";
+
         if (pollutionRate >= 0)
         {
             ecoBar.SetValueSmooth(pollutionRate);
             malusBar.SetValueSmooth(0);
 
-            amount.text = "+" + (int)(pollutionRate * 100) + "%";
             amount.color = greenColor;
         }
         else
         {
-            malusBar.SetValueSmooth(pollutionRate);
+            malusBar.SetValueSmooth(Mathf.Abs(pollutionRate));
             ecoBar.SetValueSmooth(0);
 
-            amount.text = "-" + (int)(pollutionRate * 100) + "%";
             amount.color = redColor;
         }
-
     }
+
 }
