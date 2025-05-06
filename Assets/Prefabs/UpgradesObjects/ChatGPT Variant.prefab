@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 248872094811135662, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_Name
-      value: Item
+      value: ChatGPT Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1613497058967423127, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52,6 +52,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4921448145690341697, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 38ec32d4cafcd3a4b8384c37ae71b481, type: 2}
+    - target: {fileID: 4944443758461757757, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4513262415663695275, guid: cc531df47cccd214985f69356902648f, type: 3}
+    - target: {fileID: 7452543735019696039, guid: 14f723f0c5dc28042834116b54d89984, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 1123a25960012534c873e843cf0506bd, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
