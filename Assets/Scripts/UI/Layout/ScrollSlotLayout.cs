@@ -48,7 +48,7 @@ public class ScrollSlotLayout : MonoBehaviour
             }
             else
             {
-                PollutionManager.Instance.AddModifier(currentData.pollutionAdded / 1000);
+                PollutionManager.Instance.AddModifier(currentData.pollutionAdded);
                 MoneyManager.Instance.AddModifier(currentData.price);
             }
 
