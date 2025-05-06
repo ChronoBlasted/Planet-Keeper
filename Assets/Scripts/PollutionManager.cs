@@ -28,6 +28,7 @@ public class PollutionManager : CurrencyManager
         if (addedValue >= 0)
         {
             currentCurrency += addedValue;
+            if (currentCurrency >= 100) onPollutionLimitReached?.Invoke(currentCurrency);
         }
         else
         {
