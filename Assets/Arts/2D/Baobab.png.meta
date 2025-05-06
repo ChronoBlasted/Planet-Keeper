@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Baobab_0: -6934401341678212256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
