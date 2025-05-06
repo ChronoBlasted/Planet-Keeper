@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b95d24f890f9911428515f34b069ca65
+guid: 4be822227e58db5499f77cd0baf86c1a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8879187031069580840
-    second: Epuration 1_0
+      213: 1074562335852043530
+    second: coraux_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Epuration 1_0
+      name: coraux_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 57
-        width: 754
-        height: 826
+        x: 111
+        y: 88
+        width: 809
+        height: 801
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82e58219f85393b70800000000000000
-      internalID: 8879187031069580840
+      spriteID: a0d997d40cc99ee00800000000000000
+      internalID: 1074562335852043530
       vertices: []
       indices: 
       edges: []

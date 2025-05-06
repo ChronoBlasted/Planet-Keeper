@@ -10,4 +10,5 @@ public class UpgradesObjectsData : ScriptableObject
     public float price;
     public float pollutionAdded;
     public Animator animator;
+    public bool isInside;
 }
