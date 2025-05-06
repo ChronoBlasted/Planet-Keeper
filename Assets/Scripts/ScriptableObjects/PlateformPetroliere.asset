@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Plateforme p\xE9troli\xE8re"
   description: "Pour avoir une 2\xE8me Mer Noire"
+  prefab: {fileID: 394676877210710630, guid: 167fa7fa4c969854ba2ed68be8e6d83d, type: 3}
   sprite: {fileID: -4470508875805170495, guid: 423f5022140f2f545bce85d64872933b, type: 3}
   price: 500
   pollutionAdded: 500
   animator: {fileID: 0}
-  isInside: 0
+  generationType: 0
+  isEco: 0

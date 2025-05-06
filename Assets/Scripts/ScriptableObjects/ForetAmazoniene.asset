@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "For\xEAt amazoni\xE8ne"
   description: "Un nouveau poumon pour la plan\xE8te"
-  prefab: {fileID: 8037715947870462165, guid: 180cd7a493413744c9cc548f84fe5aa6, type: 3}
+  prefab: {fileID: 5715431472185829285, guid: cf4dab43788cfd64da249c1e1de25466, type: 3}
   sprite: {fileID: -982824887936402799, guid: 472c46d4b55db3b4193b9a5d00172a8a, type: 3}
   price: 1000
   pollutionAdded: 500
   animator: {fileID: 0}
-  isInside: 0
+  generationType: 0
   isEco: 1

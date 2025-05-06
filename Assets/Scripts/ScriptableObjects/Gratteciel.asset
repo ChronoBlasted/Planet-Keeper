@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Gratteciel
   description: "Au moins 732 \xE9tages"
+  prefab: {fileID: 3615038826369045582, guid: 4bb83b806db70c648b23e371a1277b6b, type: 3}
   sprite: {fileID: -4663020834023140489, guid: 9420d831914846b4fb576a69721c4868, type: 3}
   price: 50
   pollutionAdded: 50
   animator: {fileID: 0}
+  generationType: 0
+  isEco: 0

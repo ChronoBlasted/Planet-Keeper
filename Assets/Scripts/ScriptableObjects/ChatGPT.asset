@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Abonnement ChatGPT
   description: "La pollution \xE0 port\xE9e de main !"
+  prefab: {fileID: 8663569917705100018, guid: d3e1bc32cb85b7d4b826d5026e82ab1c, type: 3}
   sprite: {fileID: 4513262415663695275, guid: cc531df47cccd214985f69356902648f, type: 3}
   price: 1
   pollutionAdded: 1
   animator: {fileID: 0}
+  generationType: 0
+  isEco: 0

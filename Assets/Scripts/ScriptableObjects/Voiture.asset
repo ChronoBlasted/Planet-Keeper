@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Voiture
   description: Pour aller voir belle-maman
+  prefab: {fileID: 6272655050507125828, guid: d0efca433f219b84d883223ed76b3f58, type: 3}
   sprite: {fileID: -2913601886140455305, guid: fe536e682d7e49943abd950a101ac76f, type: 3}
   price: 20
   pollutionAdded: 20
   animator: {fileID: 0}
+  generationType: 0
+  isEco: 0

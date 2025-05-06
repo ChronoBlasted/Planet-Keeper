@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Camion
   description: "Rend la plan\xE8te si terne"
+  prefab: {fileID: 8001886225530516856, guid: d7b536640ce6ec648830de975b323078, type: 3}
   sprite: {fileID: -7933543288241434937, guid: 1af69cb98ba98414e9b3635c39672255, type: 3}
   price: 30
   pollutionAdded: 30
   animator: {fileID: 0}
+  generationType: 0
+  isEco: 0

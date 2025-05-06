@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Barri\xE8re de corail"
   description: C'est joli ET utile !
-  prefab: {fileID: 4455438846700826226, guid: 0113153b6f66d7a44bfa35ecfc6483cf, type: 3}
+  prefab: {fileID: 5039117631808650064, guid: afe423687dac47b41a21b549b4a55842, type: 3}
   sprite: {fileID: 1074562335852043530, guid: 4be822227e58db5499f77cd0baf86c1a, type: 3}
   price: 500
   pollutionAdded: 250
