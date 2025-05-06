@@ -37,7 +37,20 @@ public class ScrollSlotLayout : MonoBehaviour
 
         if (canBuy)
         {
+            total++;
             totalBuyed.text = total.ToString();
+
+            MoneyManager.Instance.SpendMoney(currentData.price);
+
+            if (currentData.isEco)
+            {
+                PollutionManager.Instance.AddModifier(-currentData.pollutionAdded);
+            }
+            else
+            {
+                PollutionManager.Instance.AddModifier(currentData.pollutionAdded / 1000);
+                MoneyManager.Instance.AddModifier(currentData.price);
+            }
         }
         else
         {
