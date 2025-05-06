@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a247580fa33c284a8c81b1f0427375f, type: 3}
+  m_Name: DataCenter
+  m_EditorClassIdentifier: 
+  name: DataCenter
+  description: Sert aussi de chauffage l'hiver
+  sprite: {fileID: -7090612497130224575, guid: 73312e7eb2008fd42b0f7303652976de, type: 3}
+  price: 200
+  pollutionAdded: 200
+  animator: {fileID: 0}
+  isInside: 0
