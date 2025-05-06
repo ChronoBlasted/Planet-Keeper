@@ -1,31 +1,37 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CurrencyManager : MonoBehaviour
 {
+    [SerializeField] protected UnityEvent<float> onCurrencyChanged;
+    [Space(10)]
     [SerializeField] protected float startingCurrency;
     [SerializeField] protected float currentCurrency;
+    [Space(30)]
+    [SerializeField] protected UnityEvent<float> onModifierChanged;
     [Space(10)]
-    [SerializeField] protected float currentChanger;
+    [SerializeField] protected float currentModifier;
 
     protected virtual void Awake()
     {
         currentCurrency = startingCurrency;
-        currentChanger = 0;
+        currentModifier = 0;
     }
 
     protected virtual void FixedUpdate()
     {
-        currentCurrency += currentChanger;
+        currentCurrency += currentModifier;
     }
 
-    public void AddCurrency(float addedValue)
+    public virtual void AddCurrency(float addedValue)
     {
         currentCurrency += addedValue;
     }
 
-    public void AddChanger(float addedValue)
+    public void AddModifier(float addedValue)
     {
-        currentChanger += addedValue;
+        onModifierChanged?.Invoke(currentModifier);
+        currentModifier += addedValue;
     }
 
     public float GetCurrency()
@@ -35,6 +41,6 @@ public class CurrencyManager : MonoBehaviour
 
     public float GetChanger()
     {
-        return currentChanger;
+        return currentModifier;
     }
 }

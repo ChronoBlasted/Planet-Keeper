@@ -6,9 +6,17 @@ public class PollutionManager : CurrencyManager
     {
         base.Awake();
     }
-
-    public void ReducePollution(float amount)
+    public override void AddCurrency(float addedValue)
     {
-        currentCurrency = Mathf.Max(0, currentCurrency - amount);
+        if (addedValue >= 0)
+        {
+            currentCurrency += addedValue;
+        }
+        else
+        {
+            currentCurrency = Mathf.Max(0, currentCurrency + addedValue);
+        }
+
+        onCurrencyChanged?.Invoke(currentCurrency);
     }
 }
