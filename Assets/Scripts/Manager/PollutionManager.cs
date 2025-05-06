@@ -41,4 +41,12 @@ public class PollutionManager : CurrencyManager
 
         onCurrencyChanged?.Invoke(currentCurrency);
     }
+
+    public float GetRatio()
+    {
+        float ratio = (1f - (currentCurrency / 100f)) * 2f - 1f;
+        ratio = Mathf.Clamp(ratio, -1f, 1f);
+        return ratio * 100f;
+    }
+
 }
