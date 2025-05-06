@@ -45,8 +45,8 @@ public class CurrencyManager : MonoBehaviour
 
     public void AddModifier(float addedValue)
     {
-        onModifierChanged?.Invoke(currentModifier);
         currentModifier += addedValue;
+        onModifierChanged?.Invoke(currentModifier);
     }
 
     public float GetCurrency()

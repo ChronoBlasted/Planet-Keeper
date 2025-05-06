@@ -14,6 +14,11 @@ public class ScrollSlotLayout : MonoBehaviour
 
     UpgradesObjectsData currentData;
 
+    public int GetPrice()
+    {
+        return (int)Mathf.Pow(currentData.price, (total * 0.1f) + 1);
+    }
+
     public void Init(UpgradesObjectsData newData)
     {
         currentData = newData;
@@ -21,7 +26,7 @@ public class ScrollSlotLayout : MonoBehaviour
         title.text = currentData.name;
         desc.text = currentData.description;
         amount.text = "+" + currentData.pollutionAdded;
-        price.text = currentData.price + "€";
+        price.text = GetPrice() + "€";
         totalBuyed.text = total.ToString();
 
         ico.sprite = currentData.sprite;
@@ -33,7 +38,7 @@ public class ScrollSlotLayout : MonoBehaviour
 
     public void HandleOnClick()
     {
-        bool canBuy = MoneyManager.Instance.CanSpendMoney(currentData.price);
+        bool canBuy = MoneyManager.Instance.CanSpendMoney(GetPrice());
 
         if (canBuy)
         {
@@ -61,8 +66,9 @@ public class ScrollSlotLayout : MonoBehaviour
 
     public void UpdateUI(float moneyChanged)
     {
-        bool canBuy = MoneyManager.Instance.CanSpendMoney(currentData.price);
+        bool canBuy = MoneyManager.Instance.CanSpendMoney(GetPrice());
         lockLayout.SetActive(!canBuy);
+        price.text = GetPrice() + "€";
         price.color = canBuy ? green : red;
     }
 }
