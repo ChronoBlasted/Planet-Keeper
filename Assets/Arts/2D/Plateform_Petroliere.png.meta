@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plateform_Petroliere_0: -4470508875805170495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

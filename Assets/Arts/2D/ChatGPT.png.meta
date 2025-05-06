@@ -103,10 +103,10 @@ TextureImporter:
       name: ChatGPT_0
       rect:
         serializedVersion: 2
-        x: 173
-        y: 57
-        width: 713
-        height: 826
+        x: 171
+        y: 186
+        width: 682
+        height: 687
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7a49e03ccb3fbf24292d7c3a5fd62ad6
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChatGPT_0: 4513262415663695275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
